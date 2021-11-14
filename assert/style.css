@@ -207,6 +207,9 @@ header {
     padding-top: 5vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
 .formation2022 {
@@ -218,8 +221,21 @@ header {
     text-align: center;
 }
 
+.ensemblecards {
+    display: flex;
+}
+
+.lignecards {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .cards {
     display: flex;
+    justify-content: center;
     background-color: #f0f1f5;
     width: 200px;
     height: 250px;
