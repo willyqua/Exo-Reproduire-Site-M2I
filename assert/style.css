@@ -210,6 +210,7 @@ header {
     align-items: center;
     flex-direction: column;
     position: relative;
+    padding-bottom: 5vh;
 }
 
 .formation2022 {
@@ -243,10 +244,13 @@ header {
 }
 
 .multicard2 {
-    padding-top: 10vh;
+    background: #EDEDED;
     padding-bottom: 5vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
 .cards p {
