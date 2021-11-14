@@ -239,15 +239,19 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.cards:hover {
+    background-color: grey;
+    transition-duration: 1000ms;
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background-color: #f0f1f5;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 323px;
     margin-left: 10px;
 }
 
@@ -262,10 +266,15 @@ header {
 }
 
 .cards p {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
-    text-align: center;
-    padding-top: 1vh;
+    text-align: left;
+    padding-top: 5vh;
+    padding-left: 2vw;
+}
+
+.imgcard {
+    margin-top: 10%;
 }
 
 .financer {
